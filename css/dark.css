@@ -1,0 +1,51 @@
+.dark {
+  background-color: rgb(6 6 6 / 97%); }
+  .dark .page-home .overlay {
+    background-color: rgb(6 6 6 / 97%); }
+  .dark .page-title h2 {
+    color: #ffffff; }
+  .dark .page-title .title-bg {
+    color: rgba(70, 88, 124, 0.06); }
+  .dark .section-title h3::before {
+    background-color: #fff; }
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6,
+  .dark .about-author .author-desc p {
+    color: #fff; }
+  .dark .service-hex .st0 {
+    fill: transparent; }
+  .dark .service-hex:hover .st0 {
+    fill: #fff; }
+  .dark .testimonials .text,
+  .dark .btn-border {
+    border-color: #1e2530; }
+
+
+
+    /* scrollbar style starts  */
+
+
+
+    /* width */
+::-webkit-scrollbar {
+  width: 5px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c11811; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c11811; 
+}
+
+
+    /* scrollbar style ends  */
